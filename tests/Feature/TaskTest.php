@@ -84,6 +84,7 @@ class TaskTest extends TestCase
 
         $response = $this->actingAs($user2)->patch("/tasks/{$task->id}", [
             'title' => 'Hacked Title',
+            'priority' => 'high',
         ]);
 
         $response->assertForbidden();
