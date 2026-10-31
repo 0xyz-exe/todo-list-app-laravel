@@ -6,17 +6,12 @@ Repository: https://github.com/0xyz-exe/todo-list-app-laravel
 
 ## Screenshots
 
-### Tasks Dashboard & Overview
-![Tasks dashboard](docs/screenshots/01_tasks_dashboard.png)
-
-### Create & Schedule Task
-![Create task](docs/screenshots/02_create_task.png)
-
-### Filter by Priority & Status
-![Task filters](docs/screenshots/03_task_filters.png)
-
-### Authentication
-![Authentication](docs/screenshots/04_login.png)
+| Tampilan | Preview |
+|---|---|
+| **Dasbor Tugas & Metrik Produktivitas**<br>Ringkasan statistik tugas (Total, Pending, Selesai, Terlambat), panel filter pencarian, dan daftar kartu tugas | ![Dasbor Tugas & Metrik Produktivitas](docs/screenshots/01-tasks-dashboard-overview.png) |
+| **Formulir Pembuatan Tugas Baru**<br>Formulir intake pembuatan tugas baru dengan judul, deskripsi detail, prioritas (Low/Medium/High), dan batas waktu pengerjaan | ![Formulir Pembuatan Tugas Baru](docs/screenshots/02-create-task-intake.png) |
+| **Inspeksi Detail Tugas & Timeline Status**<br>Halaman detail tugas dengan metadata tanggal jatuh tempo, waktu pembuatan, tombol checklist selesai, serta aksi edit dan hapus | ![Inspeksi Detail Tugas & Timeline Status](docs/screenshots/03-task-detail-inspection.png) |
+| **Filter Tugas Berdasarkan Prioritas Tinggi**<br>Tampilan hasil filter tugas berkategori High Priority lengkap dengan peringatan tugas yang telah melewati batas waktu (Overdue) | ![Filter Tugas Berdasarkan Prioritas Tinggi](docs/screenshots/04-filtered-priority-tasks.png) |
 
 ## Features
 
